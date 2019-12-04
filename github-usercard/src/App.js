@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-
-import Profile from './components/Profile'
+import Profile from './components/Profile';
+import Folowers from './components/Folowers'
 
 function App(){
 
@@ -11,6 +11,7 @@ function App(){
   return(
     <div className='App'>
       <Profile/>
+      <Folowers/>
 
     </div>
   )
